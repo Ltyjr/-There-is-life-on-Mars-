@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Життя на Марсі є!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>"Життя на Марсі є!"</h1>
+        </header>
+
+        <div id="menu" class="menu-screen">
+            <div class="menu-content">
+                <h2>Нова гра</h2>
+                <p>Виберіть персонажа:</p>
+                <div class="characters-grid">
+                    <button class="char-select" data-char="Алекс">
+                        <img src="img/вибір головного персонажа чоловік.png" alt="Алекс">
+                        <span>Алекс</span>
+                    </button>
+                    <button class="char-select" data-char="Мія">
+                        <img src="img/вибір головної героїні жінка.png" alt="Мія">
+                        <span>Мія</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="game" class="game-screen hidden">
+            <div class="game-container">
+                <img id="scene-img" src="" alt="" class="novela-img">
+                <div class="story-box">
+                    <h3 id="scene-title" class="scene-title"></h3>
+                    <p id="scene-text" class="scene-text"></p>
+                </div>
+                <div id="buttons-container" class="buttons-container"></div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
